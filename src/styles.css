@@ -1,0 +1,332 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+p {
+  font-size: 15px;
+}
+.p_30 {
+  padding: 30px;
+}
+
+#home,
+#about,
+#menu,
+#reser,
+#contact,
+#franchise {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  padding: 15px;
+}
+.nav-link:hover {
+  color: #fff;
+
+  background-color: red;
+}
+
+#logo {
+  height: 108px;
+  width: 102px;
+}
+.container-fluid {
+  height: auto;
+  width: auto;
+}
+
+.navbar {
+  padding: 50px;
+}
+
+.center-img {
+  height: 375px;
+
+  width: 392px;
+}
+
+.navbar-nav {
+  background-color: #0e0602ba;
+
+  color: #fff;
+}
+#aboutbtn {
+  font-weight: bold;
+  padding: 10px;
+  border: 0.5px solid black;
+}
+.about-image {
+  height: 340px;
+  transition-duration: 0.95s;
+}
+
+#center-content {
+  align-items: center;
+  padding: 20px;
+}
+
+#bookbtn {
+  margin-top: 10px;
+  padding: 10px;
+  color: #fff;
+  background: red;
+
+  font-size: 20px;
+}
+#fork {
+  margin-left: 5px;
+  width: 35px;
+}
+.home {
+  background-image: url("https://www.theflyingsaucercafe.in/assets/images/banner.jpg");
+}
+#menu-section {
+  height: auto;
+  width: auto;
+  background-image: url("https://www.theflyingsaucercafe.in/assets/images/menu-back.jpg");
+}
+.icon {
+  width: 100px;
+}
+.menu-slider {
+  display: none;
+}
+#mobile-loc {
+  display: none;
+}
+
+#flames {
+  height: 40px;
+}
+.about-image:hover {
+  transform: scale(1.2);
+}
+
+/* #locations{
+margin: 20px auto;
+} */
+.loc-image {
+  height: 135px;
+  width: 120px;
+  transition-duration: 0.95s;
+}
+body {
+  background: #f1f1f1;
+}
+.loc-image:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+#aboutbtn:hover {
+  background: red;
+  color: #fff;
+}
+#testimonials {
+  background-image: url("https://www.theflyingsaucercafe.in/assets/images/testimonails-banner.jpg");
+}
+.br-100 {
+  border-radius: 100%;
+  height: 150px;
+}
+#book-table {
+  background-image: url("https://www.theflyingsaucercafe.in/assets/images/backgroundreview.jpg");
+}
+#footer-about {
+  padding: 30px;
+  background-image: url("https://www.theflyingsaucercafe.in/assets/images/backgroundreview.jpg");
+}
+#email-search {
+  width: 300px;
+
+  text-align: center;
+  background: transparent;
+}
+.social-logo {
+  height: 50px;
+  width: 80px;
+}
+.social-logo:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  transition-duration: 0.95s;
+}
+.mb_85 {
+  margin-bottom: 85px;
+}
+
+#about-page {
+  background-image: url("https://www.theflyingsaucercafe.in/assets/images/contact-banner.jpg");
+}
+#about-container {
+  background-image: url("https://www.theflyingsaucercafe.in/assets/images/Menu-banner-bg.jpg");
+  box-shadow: 0 1px 6px 6px #ffffff1a;
+
+  position: relative;
+  top: 40px;
+  padding: 78px;
+}
+#abt-h1 {
+  font-size: 4.5rem;
+}
+
+#sign {
+  height: 113px;
+  position: absolute;
+  left: 79%;
+  top: 70%;
+}
+#owner-img {
+  transition-duration: 2s;
+}
+#owner-img:hover {
+  transform: rotateY(360deg);
+}
+#flip-image {
+  display: none;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 70%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 450px;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+.flip-card-back {
+  background-color: black;
+  color: white;
+  transform: rotateY(180deg);
+}
+.gallery-img {
+  height: 310px;
+  width: 240px;
+  transition-duration: 0.95s;
+}
+.gallery-img:hover {
+  transform: rotate(25deg);
+}
+#menu-container {
+  background-image: url("https://www.theflyingsaucercafe.in/assets/images/contact-banner.jpg");
+}
+#menu-section {
+  box-shadow: 0 1px 6px 6px #ffffff1a;
+
+  position: relative;
+  top: 40px;
+}
+#menu-banner {
+  height: 200px;
+  width: auto;
+  background-image: url("https://www.theflyingsaucercafe.in/assets/images/menu-banner.jpg");
+}
+#our-menu-section {
+  background-image: url("https://www.theflyingsaucercafe.in/assets/images/menu-back.jpg");
+}
+
+@media (max-width: 625px) {
+  .menu-card {
+    display: none;
+  }
+  .menu-slider {
+    display: block;
+  }
+  #india-loc {
+    display: none;
+  }
+  #mobile-loc {
+    display: block;
+  }
+  #flames {
+    display: none;
+  }
+  #about-container {
+    padding: 10px;
+  }
+  #sign {
+    display: none;
+  }
+  #flip-image {
+    display: block;
+    height: 380px;
+    margin-left: 20px;
+    padding: 10px 25px;
+  }
+  .flip-card {
+    display: none;
+  }
+  #email-search {
+    width: 150px;
+  }
+  #pill-img {
+    height: 350px;
+  }
+}
+#reservations-container {
+  background-size: cover;
+  background-image: url("https://www.theflyingsaucercafe.in/assets/images/Contact-banner-bg@2x-min.png");
+}
+#form-section {
+  background-image: url("https://www.theflyingsaucercafe.in/assets/images/form-image.jpg");
+  background-repeat: round;
+}
+#food-description {
+  background: #e83d3a;
+}
+#food-section {
+  position: relative;
+  top: -66px;
+}
+#form-input {
+  background: transparent;
+  /* border-top: 0.5px; */
+  border: none;
+  color: #fff;
+  border-bottom: 1.5px dotted;
+}
+#submit-btn {
+  background: transparent;
+  color: red;
+  font-size: 24px;
+  border: 1px dotted #fff;
+}
+#faq-head {
+  background: transparent;
+  color: #fff;
+}
+#faq-cardbody {
+  background: #e83d3a;
+  flex: 1 1 auto;
+}
+#faq-card{
+  background: transparent;
+}
+#main-card{
+border: none;
+}
